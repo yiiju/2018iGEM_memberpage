@@ -42,121 +42,336 @@
             <div class="col-10 col-s-10">
                 <div class="member">
                     <div class="row principle">
+                        <h1>Principle Investigator</h1>
                         <div class="col-3 col-s-6 person">
-                            <div class="image">
+                            <div class="post">
+                                <span class="folded-corner"></span>
                                 <img src="https://i.imgur.com/HYE6HFs.png">
                             </div>
                             <h3>I-Son, Ng</h3>
                         </div>
                         <div class="col-3 col-s-6 person">
-                            <div class="image">
+                            <div class="post">
+                                <span class="folded-corner"></span>
                                 <img src="https://i.imgur.com/nUZQyAo.png">
                             </div>
                             <h3>I-Hsiu, Huang</h3>
                         </div>
                     </div>
                     <div class="row adviser">
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/nUZQyAo.png">
+                        <h1>Adviser</h1>
+                        <div class="col-3 col-s-6 person flip" id="adviser-1" onclick="turn('#adviser-1')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/nUZQyAo.png">
+                                    </div>
+                                    <h3>Shih-I, Tan</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Chemical Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>Wet Adviser</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
                             </div>
-                            <h3>Shih-I, Tan</h3>
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/TVolT5j.png">
-                            </div>
-                            <h3>I-Yu, Chen</h3>
+                        <div class="col-3 col-s-6 person flip" id="adviser-2" onclick="turn('#adviser-2')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/TVolT5j.png">
+                                    </div>
+                                    <h3>I-Yu, Chen</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Computer Science and Information Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>Dry Adviser</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
+                            </div>   
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/FT8hViM.png">
-                            </div>
-                            <h3>Wei-Xiang, Fu</h3>
+                        <div class="col-3 col-s-6 person flip" id="adviser-3" onclick="turn('#adviser-3')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/FT8hViM.png">
+                                    </div>
+                                    <h3>Wei-Xiang, Fu</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Mechanical Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>Dry Adviser</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
+                            </div>   
                         </div>
                     </div>
                     <div class="row wet">
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/bifcTzo.png">
+                        <h1>Wet</h1>
+                        <div class="col-3 col-s-6 person flip" id="wet-1" onclick="turn('#wet-1')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/bifcTzo.png">
+                                    </div>
+                                    <h3>Chen-Wei, Chen</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Medicine</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
                             </div>
-                            <h3>Chen-Wei, Chen</h3>
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/ycUaCbX.png">
+                        <div class="col-3 col-s-6 person flip" id="wet-2" onclick="turn('#wet-2')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/ycUaCbX.png">
+                                    </div>
+                                    <h3>Li-Yun, Yuan</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Physical Therapy</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
                             </div>
-                            <h3>Li-Yun, Yuan</h3>
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/FDtdGPx.png">
+                        <div class="col-3 col-s-6 person flip" id="wet-3" onclick="turn('#wet-3')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/FDtdGPx.png">
+                                    </div>
+                                    <h3>Ting-So, Liu</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Biotechnology and Bioindustry Sciences</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
                             </div>
-                            <h3>Ting-So, Liu</h3>
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/s2HBaNr.png">
+                        <div class="col-3 col-s-6 person flip" id="wet-4" onclick="turn('#wet-4')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/s2HBaNr.png">
+                                    </div>
+                                    <h3>Hui-Yee, Ng</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Life Sciences</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
                             </div>
-                            <h3>Hui-Yee, Ng</h3>
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/Uwo4nPY.png">
+                        <div class="col-3 col-s-6 person flip" id="wet-5" onclick="turn('#wet-5')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/Uwo4nPY.png">
+                                    </div>
+                                    <h3>Zhen-yee, Wu</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Biotechnology and Bioindustry Sciences</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
                             </div>
-                            <h3>Zhen-yee, Wu</h3>
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/JLt1cPX.png">
+                        <div class="col-3 col-s-6 person flip" id="wet-6" onclick="turn('#wet-6')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/JLt1cPX.png">
+                                    </div>
+                                    <h3>Chee-Yun, Long</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Chemical Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
                             </div>
-                            <h3>Chee-Yun, Long</h3>
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/nUZQyAo.png">
-                            </div>
-                            <h3>Patrick Chong Jun Theng</h3>
+                        <div class="col-3 col-s-6 person flip" id="wet-7" onclick="turn('#wet-7')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/nUZQyAo.png">
+                                    </div>
+                                    <h3>Patrick Chong Jun Theng</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Biotechnology and Bioindustry Sciences</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                     <div class="row dry">
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/Cql6fH8.png">
-                            </div>
-                            <h3>Zhen-Hui, Hoe</h3>
+                    <h1>Dry IT</h1>
+                        <div class="col-3 col-s-6 person flip" id="dry-1" onclick="turn('#dry-1')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/Cql6fH8.png">
+                                    </div>
+                                    <h3>Zhen-Hui, Hoe</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Mechanical Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>
+                            </div>    
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/9Z8j8OU.png">
-                            </div>
-                            <h3>Pin-Hsuan, Huang</h3>
+                        <div class="col-3 col-s-6 person flip" id="dry-2" onclick="turn('#dry-2')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/9Z8j8OU.png">
+                                    </div>
+                                    <h3>Pin-Hsuan, Huang</h3>
+                                </div>
+                                <div class="namecard back">
+                                  <h2>Major</h2>
+                                    <h5>Electrical Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>  
+                            </div> 
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/tAMB493.png">
-                            </div>
-                            <h3>Yuan-Chen, Lee</h3>
+                        <div class="col-3 col-s-6 person flip" id="dry-3" onclick="turn('#dry-3')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/tAMB493.png">
+                                    </div>
+                                    <h3>Yuan-Chen, Lee</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Energy</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>  
+                            </div> 
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/sIqCI65.png">
-                            </div>
-                            <h3>I-Chu, Hung</h3>
+                        <div class="col-3 col-s-6 person flip" id="dry-4" onclick="turn('#dry-4')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/sIqCI65.png">
+                                    </div>
+                                    <h3>I-Chu, Hung</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Computer Science and Information Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>  
+                            </div> 
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/FoWc7tM.png">
-                            </div>
-                            <h3>Shih-Wei, Liu</h3>
+                        <div class="col-3 col-s-6 person flip" id="dry-5" onclick="turn('#dry-5')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/FoWc7tM.png">
+                                    </div>
+                                    <h3>Shih-Wei, Liu</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Materials Science and Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>  
+                            </div> 
                         </div>
                     </div>
                     <div class="row hp">
-                        <div class="col-3 col-s-6 person">
-                            <div class="image">
-                                <img src="https://i.imgur.com/HYE6HFs.png">
-                            </div>
-                            <h3>Chia-Jung, Wang</h3>
+                    <h1>Human Practice</h1>
+                        <div class="col-3 col-s-6 person flip" id="hp-1" onclick="turn('#hp-1')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/HYE6HFs.png">
+                                    </div>
+                                    <h3>Chia-Jung, Wang</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h2>Major</h2>
+                                    <h5>Economics & Accountancy</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>wet</h5>
+                                    <h2>A quote from iGEM</h2>
+                                    <h5>xxx</h5>
+                                </div>  
+                            </div> 
                         </div>
                     </div>
                 </div>

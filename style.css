@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: #3E3E3E;
 }
 .row::after {
     content: "";
@@ -54,26 +55,55 @@ img {
     width: 100%;
     height: auto;
 }
-.header {
-    background-color: #313035;
-    color: #FFC9BB;
-    padding: 15px;
+.header h1{
+    background-color: #AD0000;
+    padding: 10px;
+    font-size: 60px;
+    color: #2F3632;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+.row h1 {
+    background-color: #3E3E3E;
+    padding: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+.row .principle h1 {
+    color: #F88EAE;
+}
+.row .adviser h1 {
+    color: #EA931F;
+}
+.row .wet h1 {
+    color: #28BD55;
+}
+.row .dry h1 {
+    color: #FFE049;
+}
+.row .hp h1 {
+    color: #8BBDE7;
 }
 .menu {
     padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     position: fixed;
+    background-color: #AD0000;
 }
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #AD0000;
 }
 .menu li {
     padding: 10px;
     margin-bottom: 7px;
     background-color: #434343;
-    color: #FFEEEE;
+    color: #FFE6D5;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .menu li:hover {
@@ -84,10 +114,31 @@ img {
       display: none;
     }
 }
+/*folded-corner*/
+.post {
+    position: relative;
+ }
+ .folded-corner {
+    position: absolute;
+    bottom: 0px;  
+    right: 0px;
+    border-width: 0;
+    border-style: solid;
+    background: hsla(260,100%,100%,0.2);
+    box-shadow: 0px -4px 0px rgba(0,0,0,0.3), -1px -4px 0px rgba(0,0,0,0.1);
+    border-radius: 15px 0 0 0;
+    border-color: transparent #FFEEEE transparent transparent;
+    transition: border-width 0.2s ease-out;
+ }
+.post:hover .folded-corner {
+    border-width: 40px 40px 0 0;
+}
+.photo .folded-corner {background: hsla(260,5%,75%,0.5);}
 .member {
     padding: 10px;
     margin: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-top: 1px;
+    background-color: #3E3E3E;
 }
 .principle {
     margin: 20px;
@@ -112,7 +163,85 @@ img {
 .person {   
     margin: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: #FFEEEE;
 }
-.person:hover {
-    background-color: #0099cc;
+.person h3 {
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: #2F3632;
+    height: 65px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #FFEEEE;
+}
+.flip {
+    perspective: 800;
+    width: 280px;
+    height: 380px;
+}
+.flip .card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    background-color: #FFEEEE;
+}
+.flip .card .namecard {
+    backface-visibility: hidden;
+    z-index: 2;
+    font-size: 3em;
+    line-height: 26px;
+}
+.flip .card .front {
+    position: absolute;
+    z-index: 1;
+    letter-spacing: 1px;
+    background-color: #FFEEEE;
+    letter-spacing: 1px;
+    color: rgb(8, 7, 1);
+    overflow: hidden;
+    cursor: pointer;
+}
+.flip .card .back {
+    transform: rotatey(-180deg);
+    cursor: pointer;
+    letter-spacing: 1px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: left;
+    background-color: #272625;
+}
+.card .back h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    background-color: #272625;
+}
+.card .back h5 {
+    color: #fff1b9;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #272625;
+}
+.principle .card .back h2 {
+    color: #F88EAE;
+}
+.adviser .card .back h2 {
+    color: #EA931F;
+}
+.wet .card .back h2 {
+    color: #28BD55;
+}
+.dry .card .back h2 {
+    color: #FFE049;
+}
+.hp .card .back h2 {
+    color: #8BBDE7;
+}
+.flipped {
+    transform: rotatey(-180deg);
 }

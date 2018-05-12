@@ -33,3 +33,6 @@ $(function(){
 		}, 1000);
 	});
 });
+function turn(id) {    
+	$(id).find('.card').toggleClass('flipped');
+}
