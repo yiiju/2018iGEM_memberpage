@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="">
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>2018 NCKU iGEM</h1>
+        </div>
+        <div class="row">
+            <div class="col-2 col-s-2">
+                <div class="menu">
+                    <ul>
+                        <div id="list1" onclick="test('#list1')">
+                            <li class="item active">Principle Investigator</li>
+                        </div>
+                        <div id="list2" onclick="test('#list2')">
+                            <li class="item">Adviser</li>
+                        </div>
+                        <div id="list3" onclick="test('#list3')">
+                            <li class="item">Wet</li>
+                        </div>
+                        <div id="list4" onclick="test('#list4')">
+                            <li class="item">Dry</li>
+                        </div>
+                        <div id="list5" onclick="test('#list5')">
+                            <li clasd="item">Hp</li>
+                        </div>
+                        <div>
+                            <li class="gototop">Go To Top</li>
+                        </div>        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-10 col-s-10">
+                <div class="member">
+                    <div class="row principle">
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/HYE6HFs.png">
+                            </div>
+                            <h3>I-Son, Ng</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/nUZQyAo.png">
+                            </div>
+                            <h3>I-Hsiu, Huang</h3>
+                        </div>
+                    </div>
+                    <div class="row adviser">
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/nUZQyAo.png">
+                            </div>
+                            <h3>Shih-I, Tan</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/TVolT5j.png">
+                            </div>
+                            <h3>I-Yu, Chen</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/FT8hViM.png">
+                            </div>
+                            <h3>Wei-Xiang, Fu</h3>
+                        </div>
+                    </div>
+                    <div class="row wet">
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/bifcTzo.png">
+                            </div>
+                            <h3>Chen-Wei, Chen</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/ycUaCbX.png">
+                            </div>
+                            <h3>Li-Yun, Yuan</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/FDtdGPx.png">
+                            </div>
+                            <h3>Ting-So, Liu</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/s2HBaNr.png">
+                            </div>
+                            <h3>Hui-Yee, Ng</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/Uwo4nPY.png">
+                            </div>
+                            <h3>Zhen-yee, Wu</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/JLt1cPX.png">
+                            </div>
+                            <h3>Chee-Yun, Long</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/nUZQyAo.png">
+                            </div>
+                            <h3>Patrick Chong Jun Theng</h3>
+                        </div>
+                    </div>
+                    <div class="row dry">
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/Cql6fH8.png">
+                            </div>
+                            <h3>Zhen-Hui, Hoe</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/9Z8j8OU.png">
+                            </div>
+                            <h3>Pin-Hsuan, Huang</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/tAMB493.png">
+                            </div>
+                            <h3>Yuan-Chen, Lee</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/sIqCI65.png">
+                            </div>
+                            <h3>I-Chu, Hung</h3>
+                        </div>
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/FoWc7tM.png">
+                            </div>
+                            <h3>Shih-Wei, Liu</h3>
+                        </div>
+                    </div>
+                    <div class="row hp">
+                        <div class="col-3 col-s-6 person">
+                            <div class="image">
+                                <img src="https://i.imgur.com/HYE6HFs.png">
+                            </div>
+                            <h3>Chia-Jung, Wang</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="member.js"></script>
+</html>
