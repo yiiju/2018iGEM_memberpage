@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>NCKU Tainan/Team member</title>
         <meta charset="utf-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" type="image/png" href="">
+        <link rel="icon" type="image/png" href="https://i.imgur.com/kdKHf1l.png">
         <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -40,23 +41,39 @@
                 <div class="member">
                     <div class="row principle">
                         <h1>Principle Investigator</h1>
-                        <div class="col-3 col-s-6 person">
-                            <div class="post">
-                                <span class="folded-corner"></span>
-                                <img src="https://i.imgur.com/HYE6HFs.png">
-                            </div>
-                            <h3>I-Son, Ng</h3>
+                        <div class="col-1 col-s-1 person flip none principlenone"></div>
+                        <div class="col-3 col-s-6 person flip" id="principle-1" onclick="turn('#principle-1')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/HYE6HFs.png">
+                                    </div>
+                                    <h3>I-Son, Ng</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h3>Shih-I, Tan</h3>                                    
+                                </div>
+                            </div>   
                         </div>
-                        <div class="col-3 col-s-6 person">
-                            <div class="post">
-                                <span class="folded-corner"></span>
-                                <img src="https://i.imgur.com/nUZQyAo.png">
-                            </div>
-                            <h3>I-Hsiu, Huang</h3>
+                        <div class="col-3 col-s-6 person flip" id="principle-2" onclick="turn('#principle-2')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/nUZQyAo.png">
+                                    </div>
+                                    <h3>I-Hsiu, Huang</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h3>I-Hsiu, Huang</h3>                                    
+                                </div>
+                            </div>   
                         </div>
                     </div>
                     <div class="row adviser">
                         <h1>Adviser</h1>
+                        <div class="col-1 col-s-1 person flip none advisernone"></div>
                         <div class="col-3 col-s-6 person flip" id="adviser-1" onclick="turn('#adviser-1')">
                             <div class="card">
                                 <div class="namecard front">
@@ -117,6 +134,7 @@
                     </div>
                     <div class="row wet">
                         <h1>Wet</h1>
+                        <div class="col-1 col-s-1 person flip none3 wetnone"></div>
                         <div class="col-3 col-s-6 person flip" id="wet-1" onclick="turn('#wet-1')">
                             <div class="card">
                                 <div class="namecard front">
@@ -131,7 +149,7 @@
                                     <h2>Major</h2>
                                     <h5>Medicine</h5>
                                     <h2>Work in iGEM</h2>
-                                    <h5>wet</h5>
+                                    <h5>Wet leader</h5>
                                     <h5 class="quote">xxx</h5>
                                 </div>
                             </div>
@@ -155,6 +173,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-1 col-s-1 person flip none4 wetnone"></div>
                         <div class="col-3 col-s-6 person flip" id="wet-3" onclick="turn('#wet-3')">
                             <div class="card">
                                 <div class="namecard front">
@@ -193,6 +212,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-1 col-s-1 person flip none wetnone"></div>
                         <div class="col-3 col-s-6 person flip" id="wet-5" onclick="turn('#wet-5')">
                             <div class="card">
                                 <div class="namecard front">
@@ -212,6 +232,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-1 col-s-1 person flip none2 wetnone"></div>
                         <div class="col-3 col-s-6 person flip" id="wet-6" onclick="turn('#wet-6')">
                             <div class="card">
                                 <div class="namecard front">
@@ -253,6 +274,7 @@
                     </div>
                     <div class="row dry">
                     <h1>Dry IT</h1>
+                        <div class="col-1 col-s-1 person flip none drynone"></div>
                         <div class="col-3 col-s-6 person flip" id="dry-1" onclick="turn('#dry-1')">
                             <div class="card">
                                 <div class="namecard front">
@@ -267,12 +289,51 @@
                                     <h2>Major</h2>
                                     <h5>Mechanical Engineering</h5>
                                     <h2>Work in iGEM</h2>
-                                    <h5>Hardware & Modeling</h5>
+                                    <h5>Dry leader</h5>
                                     <h5 class="quote">xxx</h5>
                                 </div>
                             </div>    
                         </div>
                         <div class="col-3 col-s-6 person flip" id="dry-2" onclick="turn('#dry-2')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/sIqCI65.png">
+                                    </div>
+                                    <h3>I-Chu, Hung</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h3>I-Chu, Hung</h3>
+                                    <h2>Major</h2>
+                                    <h5>Computer Science and Information Engineering</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>Software & Wiki & Hardware</h5>
+                                    <h5 class="quote">xxx</h5>
+                                </div>  
+                            </div> 
+                        </div>
+                        <div class="col-1 col-s-1 person flip none2 drynone"></div>
+                        <div class="col-3 col-s-6 person flip" id="dry-3" onclick="turn('#dry-3')">
+                            <div class="card">
+                                <div class="namecard front">
+                                    <div class="post">
+                                        <span class="folded-corner"></span>
+                                        <img src="https://i.imgur.com/tAMB493.png">
+                                    </div>
+                                    <h3>Yuan-Chen, Lee</h3>
+                                </div>
+                                <div class="namecard back">
+                                    <h3>Yuan-Chen, Lee</h3>
+                                    <h2>Major</h2>
+                                    <h5>Energy</h5>
+                                    <h2>Work in iGEM</h2>
+                                    <h5>Team leader</h5>
+                                    <h5 class="quote">xxx</h5>
+                                </div>  
+                            </div> 
+                        </div>
+                        <div class="col-3 col-s-6 person flip" id="dry-4" onclick="turn('#dry-4')">
                             <div class="card">
                                 <div class="namecard front">
                                     <div class="post">
@@ -291,44 +352,6 @@
                                 </div>  
                             </div> 
                         </div>
-                        <div class="col-3 col-s-6 person flip" id="dry-3" onclick="turn('#dry-3')">
-                            <div class="card">
-                                <div class="namecard front">
-                                    <div class="post">
-                                        <span class="folded-corner"></span>
-                                        <img src="https://i.imgur.com/tAMB493.png">
-                                    </div>
-                                    <h3>Yuan-Chen, Lee</h3>
-                                </div>
-                                <div class="namecard back">
-                                    <h3>Yuan-Chen, Lee</h3>
-                                    <h2>Major</h2>
-                                    <h5>Energy</h5>
-                                    <h2>Work in iGEM</h2>
-                                    <h5>Modeling</h5>
-                                    <h5 class="quote">xxx</h5>
-                                </div>  
-                            </div> 
-                        </div>
-                        <div class="col-3 col-s-6 person flip" id="dry-4" onclick="turn('#dry-4')">
-                            <div class="card">
-                                <div class="namecard front">
-                                    <div class="post">
-                                        <span class="folded-corner"></span>
-                                        <img src="https://i.imgur.com/sIqCI65.png">
-                                    </div>
-                                    <h3>I-Chu, Hung</h3>
-                                </div>
-                                <div class="namecard back">
-                                    <h3>I-Chu, Hung</h3>
-                                    <h2>Major</h2>
-                                    <h5>Computer Science and Information Engineering</h5>
-                                    <h2>Work in iGEM</h2>
-                                    <h5>Software & Wiki</h5>
-                                    <h5 class="quote">xxx</h5>
-                                </div>  
-                            </div> 
-                        </div>
                         <div class="col-3 col-s-6 person flip" id="dry-5" onclick="turn('#dry-5')">
                             <div class="card">
                                 <div class="namecard front">
@@ -343,7 +366,7 @@
                                     <h2>Major</h2>
                                     <h5>Materials Science and Engineering</h5>
                                     <h2>Work in iGEM</h2>
-                                    <h5>Wiki</h5>
+                                    <h5>Wiki & hardware</h5>
                                     <h5 class="quote">xxx</h5>
                                 </div>  
                             </div> 
@@ -351,6 +374,7 @@
                     </div>
                     <div class="row hp">
                     <h1>Human Practice</h1>
+                        <div class="col-3 col-s-6 person flip none hpnone"></div>
                         <div class="col-3 col-s-6 person flip" id="hp-1" onclick="turn('#hp-1')">
                             <div class="card">
                                 <div class="namecard front">
@@ -375,7 +399,7 @@
             </div>
         </div>
         <div class="gototop">
-            <img src="https://i.imgur.com/X9CchuF.png">Go Top
+            <img src="https://i.imgur.com/deiaqB8.png">Go Top
         </div>   
     </body>
     <script type="text/javascript" src="member.js"></script>

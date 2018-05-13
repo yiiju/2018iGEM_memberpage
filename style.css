@@ -55,7 +55,7 @@ img {
     height: auto;
 }
 .gototop {
-    bottom: 80px;
+    bottom: 55px;
     right: 10px;
     position: fixed;
     width: 60px;
@@ -106,7 +106,7 @@ img {
 .menu li:hover {
     background-color: #585757;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 930px) {
     div.menu {
       display: none;
     }
@@ -115,7 +115,7 @@ img {
 .post {
     position: relative;
  }
- .folded-corner {
+.folded-corner {
     position: absolute;
     bottom: 0px;  
     right: 0px;
@@ -150,16 +150,19 @@ img {
     border-color: #EA931F;
 }
 .wet {
+    margin: 20px;
     border-style: none none double none;
     border-bottom-width: 7px;
     border-color: #28BD55;
 }
 .dry {
+    margin: 20px;
     border-style: none none double none;
     border-bottom-width: 7px;
     border-color: #FFE049;
 }
 .hp {
+    margin: 20px;
     border-style: none none double none;
     border-bottom-width: 10px;
     border-color: #8BBDE7;
@@ -180,6 +183,155 @@ img {
     margin-top: 20px;
     text-align: center;
     background-color: #FFEEEE;
+}
+/*set people center*/
+.person.flip.none{
+    background: #272625;
+    box-shadow: 0px 0px 0px;
+}
+.person.flip.none2{
+    background: #272625;
+    box-shadow: 0px 0px 0px;
+}
+.person.flip.none3{
+    background: #272625;
+    box-shadow: 0px 0px 0px;
+}
+.person.flip.none4{
+    background: #272625;
+    box-shadow: 0px 0px 0px;
+}
+@media only screen and (max-width: 1700px) {
+    /* 3 */
+    .col-1.col-s-1.person.flip.none.principlenone{
+        width: 12%;
+    }
+    .col-1.col-s-1.person.flip.none.advisernone{
+        display: none;
+    }  
+    .col-1.col-s-1.person.flip.none3.wetnone{
+        width: 12%;
+    }
+    .col-1.col-s-1.person.flip.none4.wetnone{
+        width: 12%;
+    }
+    .col-1.col-s-1.person.flip.none.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none2.wetnone{
+        width: 12%;
+    }
+    .col-1.col-s-1.person.flip.none.drynone{
+        width: 12%;
+    }
+    .col-1.col-s-1.person.flip.none2.drynone{
+        width: 12%;
+    }
+    .col-3.col-s-6.person.flip.none.hpnone{
+        width: 29%;
+    }
+}
+@media only screen and (min-width: 1700px) {
+    /* 4 */
+    .col-1.col-s-1.person.flip.none.principlenone{
+        width: 20%;
+    }
+    .col-1.col-s-1.person.flip.none.advisernone{
+        width: 10%;
+    }
+    .col-1.col-s-1.person.flip.none3.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none4.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none.wetnone{
+        width: 10%;
+    }
+    .col-1.col-s-1.person.flip.none2.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none.drynone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none2.drynone{
+        display: none;
+    }
+    .col-3.col-s-6.person.flip.none.hpnone{
+        width: 33.33%;
+    }
+}
+@media only screen and (min-width: 2100px) {
+    /* 5 */
+    .col-1.col-s-1.person.flip.none.principlenone{
+        width: 28%;
+    }
+    .col-1.col-s-1.person.flip.none.advisernone{
+        width: 16.5%;
+    }  
+    .col-1.col-s-1.person.flip.none.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none2.wetnone{
+        display: inline;
+        width: 28%;
+    }
+    .col-1.col-s-1.person.flip.none.drynone{
+        display: none;
+    }
+    .col-3.col-s-6.person.flip.none.hpnone{
+        width: 37%;
+    }
+}
+@media only screen and (min-width: 2470px) {
+    /* 6 */
+    .col-1.col-s-1.person.flip.none.principlenone{
+        width: 31%;
+    }
+    .col-1.col-s-1.person.flip.none.advisernone{
+        width: 25%;
+    }  
+    .col-1.col-s-1.person.flip.none.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none2.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none.drynone{
+        display: inline;
+        width: 7%;
+    }
+    .col-3.col-s-6.person.flip.none.hpnone{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    /* For mobile phones: */
+    .col-1.col-s-1.person.flip.none.principlenone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none.advisernone{
+        display: none;
+    }  
+    .col-1.col-s-1.person.flip.none.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none2.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none3.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none4.wetnone{
+        display: none;
+    }
+    .col-1.col-s-1.person.flip.none.drynone{
+        display: none;
+    }
+    .col-3.col-s-6.person.flip.none.hpnone{
+        display: none;
+    }
 }
 .flip {
     perspective: 800;
@@ -235,6 +387,9 @@ img {
 .card .back h3 {
     background-color: #272625;
     color: #fff1b9;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding: 1px;
 }
 .principle .card .back h2 {
     color: #F88EAE;
