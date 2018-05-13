@@ -306,7 +306,7 @@ img {
     }
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1330px) {
     /* For mobile phones: */
     .col-1.col-s-1.person.flip.none.principlenone{
         display: none;
