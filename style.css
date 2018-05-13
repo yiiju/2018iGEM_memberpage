@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: #3E3E3E;
+    background-color: #272625;
 }
 .row::after {
     content: "";
@@ -10,7 +10,6 @@
 [class*="col-"] {
     float: left;
     padding: 15px;
-    
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -55,6 +54,15 @@ img {
     width: 100%;
     height: auto;
 }
+.gototop {
+    bottom: 80px;
+    right: 10px;
+    position: fixed;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    color: #FFE6D5;
+}
 .header h1{
     background-color: #AD0000;
     padding: 10px;
@@ -65,33 +73,22 @@ img {
     text-align: center;
 }
 .row h1 {
-    background-color: #3E3E3E;
+    background-color: #272625;
     padding: 10px;
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 2px;
     margin-top: 20px;
     text-align: center;
-}
-.row .principle h1 {
-    color: #F88EAE;
-}
-.row .adviser h1 {
-    color: #EA931F;
-}
-.row .wet h1 {
-    color: #28BD55;
-}
-.row .dry h1 {
-    color: #FFE049;
-}
-.row .hp h1 {
-    color: #8BBDE7;
+    font-family: Patua One;
+    color: #FFE6D5;
 }
 .menu {
     padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     position: fixed;
     background-color: #AD0000;
+    font-family: Patua One;
+    font-size: 20px;
 }
 .menu ul {
     list-style-type: none;
@@ -104,10 +101,10 @@ img {
     margin-bottom: 7px;
     background-color: #434343;
     color: #FFE6D5;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.12), 2px 2px 2px rgba(0,0,0,0.24);
 }
 .menu li:hover {
-    background-color: #808076;
+    background-color: #585757;
 }
 @media screen and (max-width: 700px) {
     div.menu {
@@ -138,36 +135,43 @@ img {
     padding: 10px;
     margin: 20px;
     margin-top: 1px;
-    background-color: #3E3E3E;
+    background-color: #272625;
 }
 .principle {
     margin: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: none none double none;
+    border-bottom-width: 7px;
+    border-color: #F88EAE;
 }
 .adviser {
     margin: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: none none double none;
+    border-bottom-width: 7px;
+    border-color: #EA931F;
 }
 .wet {
-    margin: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: none none double none;
+    border-bottom-width: 7px;
+    border-color: #28BD55;
 }
 .dry {
-    margin: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: none none double none;
+    border-bottom-width: 7px;
+    border-color: #FFE049;
 }
 .hp {
-    margin: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: none none double none;
+    border-bottom-width: 10px;
+    border-color: #8BBDE7;
 }
 .person {   
     margin: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.12), 2px 2px 2px rgba(0,0,0,0.24);
     background-color: #FFEEEE;
 }
 .person h3 {
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 600;
     color: #2F3632;
@@ -214,7 +218,7 @@ img {
     background-color: #272625;
 }
 .card .back h2 {
-    font-size: 24px;
+    font-size: 23px;
     letter-spacing: 1px;
     margin-top: 1px;
     margin-bottom: 5px;
@@ -222,10 +226,15 @@ img {
 }
 .card .back h5 {
     color: #fff1b9;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
     margin-top: 1px;
     margin-bottom: 1px;
     background-color: #272625;
+}
+.card .back h3 {
+    background-color: #272625;
+    color: #fff1b9;
 }
 .principle .card .back h2 {
     color: #F88EAE;
