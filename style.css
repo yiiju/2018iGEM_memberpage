@@ -380,8 +380,24 @@ img {
     font-size: 23px;
     letter-spacing: 1px;
     margin-top: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     background-color: #272625;
+}
+.card .back .quote {
+    font-family: 'Courgette', cursive;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.card .back p {
+    color: #fff1b9;
+    font-size: 13px;
+    letter-spacing: 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #272625;
+    line-height: 15px;
 }
 .card .back h5 {
     color: #fff1b9;
@@ -390,12 +406,14 @@ img {
     margin-top: 1px;
     margin-bottom: 1px;
     background-color: #272625;
+    font-weight: normal;
 }
 .card .back h3 {
     background-color: #272625;
     color: #fff1b9;
     margin-top: 5px;
     margin-bottom: 1px;
+    height: 55px;
     padding: 1px;
 }
 .principle .card .back h2 {
@@ -404,14 +422,26 @@ img {
 .adviser .card .back h2 {
     color: #EA931F;
 }
+.adviser .card .back .quote {
+    color: rgb(241, 196, 137);
+}
 .wet .card .back h2 {
     color: #28BD55;
+}
+.wet .card .back .quote {
+    color: #C5F0A4;
 }
 .dry .card .back h2 {
     color: #FFE049;
 }
+.dry .card .back .quote {
+    color: rgb(253, 233, 135);
+}
 .hp .card .back h2 {
     color: #8BBDE7;
+}
+.hp .card .back .quote {
+    color: rgb(193, 214, 231);
 }
 .flipped {
     transform: rotatey(-180deg);
