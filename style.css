@@ -147,7 +147,7 @@ img {
     border-bottom-width: 7px;
     border-color: #F88EAE;
 }
-.adviser {
+.advisor {
     margin: 20px;
     border-style: none none double none;
     border-bottom-width: 7px;
@@ -210,7 +210,7 @@ img {
     .col-1.col-s-1.person.flip.none.principlenone{
         width: 12%;
     }
-    .col-1.col-s-1.person.flip.none.advisernone{
+    .col-1.col-s-1.person.flip.none.advisornone{
         display: none;
     }  
     .col-1.col-s-1.person.flip.none3.wetnone{
@@ -240,7 +240,7 @@ img {
     .col-1.col-s-1.person.flip.none.principlenone{
         width: 20%;
     }
-    .col-1.col-s-1.person.flip.none.advisernone{
+    .col-1.col-s-1.person.flip.none.advisornone{
         width: 10%;
     }
     .col-1.col-s-1.person.flip.none3.wetnone{
@@ -270,7 +270,7 @@ img {
     .col-1.col-s-1.person.flip.none.principlenone{
         width: 28%;
     }
-    .col-1.col-s-1.person.flip.none.advisernone{
+    .col-1.col-s-1.person.flip.none.advisornone{
         width: 16.5%;
     }  
     .col-1.col-s-1.person.flip.none.wetnone{
@@ -292,7 +292,7 @@ img {
     .col-1.col-s-1.person.flip.none.principlenone{
         width: 31%;
     }
-    .col-1.col-s-1.person.flip.none.advisernone{
+    .col-1.col-s-1.person.flip.none.advisornone{
         width: 25%;
     }  
     .col-1.col-s-1.person.flip.none.wetnone{
@@ -315,7 +315,7 @@ img {
     .col-1.col-s-1.person.flip.none.principlenone{
         display: none;
     }
-    .col-1.col-s-1.person.flip.none.advisernone{
+    .col-1.col-s-1.person.flip.none.advisornone{
         display: none;
     }  
     .col-1.col-s-1.person.flip.none.wetnone{
@@ -419,10 +419,10 @@ img {
 .principle .card .back h2 {
     color: #F88EAE;
 }
-.adviser .card .back h2 {
+.advisor .card .back h2 {
     color: #EA931F;
 }
-.adviser .card .back .quote {
+.advisor .card .back .quote {
     color: rgb(241, 196, 137);
 }
 .wet .card .back h2 {

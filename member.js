@@ -14,7 +14,7 @@ $(function(){
 	});
 	$('#list2').click(function(){
 		$('html, body').animate({
-			scrollTop: $(".adviser").offset().top
+			scrollTop: $(".advisor").offset().top
 		}, 1000);
 	});
 	$('#list3').click(function(){
