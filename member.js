@@ -2,6 +2,10 @@ function test(id) {
 	$('.item').removeClass('active');
 	$(id).find('.item').toggleClass('active');
 }
+function bar(id) {
+	$('.barclass').removeClass('active');
+	$(id).find('.barclass').toggleClass('active');
+}
 $(function(){
     $('.gototop').click(function(){
 		$('html, body').animate({scrollTop:0},600);
