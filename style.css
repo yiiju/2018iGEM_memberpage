@@ -62,6 +62,10 @@ img {
     height: 30px;
     cursor: pointer;
     color: #FFE6D5;
+    background-color: rgba(0,0,0,0);
+}
+.gototop img {
+    background-color: rgba(0,0,0,0);
 }
 .topbar{
     overflow: hidden;
@@ -83,9 +87,22 @@ img {
     background-color: #ddd;
     color: black;
 }
+#bartitle {
+    font-size: 30px;
+    padding-top :7px;
+    padding-bottom: 7px;
+}
+#bar1 div:hover {
+    background-color: #272625;
+    color: #f2f2f2;
+}
 .topbar div.active {
     background-color: #C8BCC7;
     color: white;
+}
+#bar1 div.active {
+    background-color: #272625;
+    color: #f2f2f2;
 }
 .header h1{
     background-color: #C8BCC7;
